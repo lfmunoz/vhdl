@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_lfsr_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_lfsr" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_lfsr/uut/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_lfsr/uut/rst_in">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_lfsr/reg0_out">
+      <obj_property name="ElementShortName">reg0_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg0_out[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_lfsr/reg1_out">
+      <obj_property name="ElementShortName">reg1_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_lfsr/reg2_out">
+      <obj_property name="ElementShortName">reg2_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_out[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

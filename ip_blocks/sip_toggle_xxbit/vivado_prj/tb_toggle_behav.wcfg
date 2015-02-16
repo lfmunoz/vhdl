@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_toggle_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="std_logic_textio" />
+            <top_module name="tb_toggle" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/clk100">
+      <obj_property name="ElementShortName">clk100</obj_property>
+      <obj_property name="ObjectShortName">clk100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/clk200">
+      <obj_property name="ElementShortName">clk200</obj_property>
+      <obj_property name="ObjectShortName">clk200</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/sysclk_p">
+      <obj_property name="ElementShortName">sysclk_p</obj_property>
+      <obj_property name="ObjectShortName">sysclk_p</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/sysclk_n">
+      <obj_property name="ElementShortName">sysclk_n</obj_property>
+      <obj_property name="ObjectShortName">sysclk_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_toggle/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider41" type="divider">
+      <obj_property name="label">Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_toggle/lvds_in_n">
+      <obj_property name="ElementShortName">lvds_in_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lvds_in_n[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_toggle/lvds_in_p">
+      <obj_property name="ElementShortName">lvds_in_p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lvds_in_p[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_toggle/lvds_out_n">
+      <obj_property name="ElementShortName">lvds_out_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lvds_out_n[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_toggle/lvds_out_p">
+      <obj_property name="ElementShortName">lvds_out_p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lvds_out_p[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

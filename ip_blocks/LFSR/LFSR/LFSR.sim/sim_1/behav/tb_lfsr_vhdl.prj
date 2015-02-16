@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../lfsr_internal.vhd"
+vhdl xil_defaultlib  "../../../../lfsr_external.vhd"
+vhdl xil_defaultlib  "../../../../LFSR_0.vhd"
+vhdl xil_defaultlib  "../../../../tb_lfsr.vhd"

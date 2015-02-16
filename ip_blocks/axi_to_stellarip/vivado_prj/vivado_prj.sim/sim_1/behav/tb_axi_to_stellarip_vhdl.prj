@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl dist_mem_gen_v8_0  "../../../vivado_prj.srcs/sources_1/ip/axi_traffic_gen_0/dist_mem_gen_v8_0/hdl/dist_mem_gen_v8_0_vh_rfs.vhd"
+vhdl blk_mem_gen_v8_2  "../../../vivado_prj.srcs/sources_1/ip/axi_traffic_gen_0/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.vhd"
+vhdl lib_bmg_v1_0  "../../../vivado_prj.srcs/sources_1/ip/axi_traffic_gen_0/lib_bmg_v1_0/hdl/src/vhdl/blk_mem_gen_wrapper.vhd"
+vhdl lib_cdc_v1_0  "../../../vivado_prj.srcs/sources_1/ip/axi_traffic_gen_0/lib_cdc_v1_0/hdl/src/vhdl/cdc_sync.vhd"
+vhdl axi_traffic_gen_v2_0  "../../../vivado_prj.srcs/sources_1/ip/axi_traffic_gen_0/axi_traffic_gen_v2_0/hdl/src/vhdl/axi_traffic_gen_v2_0_bmg_wrap.vhd"
+vhdl xil_defaultlib  "../../../../rom.vhd"
+vhdl xil_defaultlib  "../../../../delay_bit.vhd"
+vhdl xil_defaultlib  "../../../../axi_stream_send.vhd"
+vhdl xil_defaultlib  "../../../../axistream_to_whin.vhd"
+vhdl xil_defaultlib  "../../../../stellarcmd_to_axilite.vhd"
+vhdl xil_defaultlib  "../../../../tb_axi_to_stellarip.vhd"

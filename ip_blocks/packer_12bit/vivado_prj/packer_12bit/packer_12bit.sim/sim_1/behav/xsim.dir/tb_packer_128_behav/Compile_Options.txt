@@ -1,0 +1,1 @@
+-wto "f04265e66c664c66a4f2e0d9fc3dfd07" --debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "tb_packer_128_behav" "xil_defaultlib.tb_packer_128" -log "elaborate.log" 

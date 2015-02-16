@@ -1,0 +1,1 @@
+-wto "3ef7b1c15cdc4bc9ac1e0695ab731515" --debug "typical" --relax -L "xil_defaultlib" -L "fifo_generator_v12_0" -L "secureip" --snapshot "tb_sip_check_data_behav" "xil_defaultlib.tb_sip_check_data" -log "elaborate.log" 

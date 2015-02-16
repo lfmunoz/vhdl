@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="axi_traffic_gen_0_synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1424106414">
+  <File Type="VDS-TIMING-PB" Name="axi_traffic_gen_0_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="axi_traffic_gen_0_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="axi_traffic_gen_0.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="axi_traffic_gen_0_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="axi_traffic_gen_0_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="axi_traffic_gen_0_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="axi_traffic_gen_0.vds"/>
+  <File Type="PA-TCL" Name="axi_traffic_gen_0.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/axi_traffic_gen_0_synth_1/axi_traffic_gen_0_synth_1.psg"/>
+  <File Type="VDS-HWDEF" Name="axi_traffic_gen_0.hwdef"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/axi_traffic_gen_0_synth_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/axi_traffic_gen_0_synth_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/axi_traffic_gen_0">
+    <File Path="$PSRCDIR/sources_1/ip/axi_traffic_gen_0/axi_traffic_gen_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="axi_traffic_gen_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/axi_traffic_gen_0">
+    <File Path="$PSRCDIR/sources_1/ip/axi_traffic_gen_0/axi_traffic_gen_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="axi_traffic_gen_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

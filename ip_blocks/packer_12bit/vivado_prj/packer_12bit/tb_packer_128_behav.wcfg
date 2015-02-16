@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_packer_128_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_packer_128" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_packer_128/packer_128_inst0/rst_in">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_packer_128/packer_128_inst0/test_mode">
+      <obj_property name="ElementShortName">test_mode</obj_property>
+      <obj_property name="ObjectShortName">test_mode</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_packer_128/packer_128_inst0/val_in">
+      <obj_property name="ElementShortName">val_in</obj_property>
+      <obj_property name="ObjectShortName">val_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/counter">
+      <obj_property name="ElementShortName">counter[11:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_packer_128/packer_128_inst0/valid_reg">
+      <obj_property name="ElementShortName">valid_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_reg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_packer_128/packer_128_inst0/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/data_out">
+      <obj_property name="ElementShortName">data_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_packer_128/packer_128_inst0/val_out">
+      <obj_property name="ElementShortName">val_out</obj_property>
+      <obj_property name="ObjectShortName">val_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample0_cnt">
+      <obj_property name="ElementShortName">sample0_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample0_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample1_cnt">
+      <obj_property name="ElementShortName">sample1_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample1_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample2_cnt">
+      <obj_property name="ElementShortName">sample2_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample2_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample3_cnt">
+      <obj_property name="ElementShortName">sample3_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample3_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample4_cnt">
+      <obj_property name="ElementShortName">sample4_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample4_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample5_cnt">
+      <obj_property name="ElementShortName">sample5_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample5_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample6_cnt">
+      <obj_property name="ElementShortName">sample6_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample6_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_packer_128/packer_128_inst0/sample7_cnt">
+      <obj_property name="ElementShortName">sample7_cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sample7_cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

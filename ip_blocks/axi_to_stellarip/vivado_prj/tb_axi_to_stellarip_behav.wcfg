@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_axi_to_stellarip_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_axi_to_stellarip" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="divider1886" type="divider">
+      <obj_property name="label">AXI-Lite-Commands</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/s_axi_aclk">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/s_axi_aresetn">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_awaddr">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awaddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_awready">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_awvalid">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_wdata">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_wstrb">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wstrb[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_wvalid">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_wready">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_bresp">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_bresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_bvalid">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_bready">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/m_axi_lite_ch1_awprot">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awprot[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_traffic_gen/status">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1887" type="divider">
+      <obj_property name="label">StellarIP-Commands</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/cmd_clk">
+      <obj_property name="ElementShortName">cmd_clk</obj_property>
+      <obj_property name="ObjectShortName">cmd_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/s_axi_aclk">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/cmd_out">
+      <obj_property name="ElementShortName">cmd_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_out[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/cmd_out_val">
+      <obj_property name="ElementShortName">cmd_out_val</obj_property>
+      <obj_property name="ObjectShortName">cmd_out_val</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/cmd_in">
+      <obj_property name="ElementShortName">cmd_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_in[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_stellarcmd_to_axilite/cmd_in_val">
+      <obj_property name="ElementShortName">cmd_in_val</obj_property>
+      <obj_property name="ObjectShortName">cmd_in_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2077" type="divider">
+      <obj_property name="label">StellarIP_WHOUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_axi_to_stellarip/inst_axistream_to_whin/data_out_out_data">
+      <obj_property name="ElementShortName">data_out_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_axistream_to_whin/data_out_out_dval">
+      <obj_property name="ElementShortName">data_out_out_dval</obj_property>
+      <obj_property name="ObjectShortName">data_out_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_axi_to_stellarip/inst_axistream_to_whin/data_out_out_stop">
+      <obj_property name="ElementShortName">data_out_out_stop</obj_property>
+      <obj_property name="ObjectShortName">data_out_out_stop</obj_property>
+   </wvobject>
+</wave_config>

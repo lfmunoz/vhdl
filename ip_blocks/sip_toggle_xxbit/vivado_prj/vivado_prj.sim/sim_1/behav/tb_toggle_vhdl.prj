@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../src/pulse2pulse.vhd"
+vhdl xil_defaultlib  "../../../../src/stellar_generic_cmd.vhd"
+vhdl xil_defaultlib  "../../../../src/ip_block_ctrl.vhd"
+vhdl xil_defaultlib  "../../../../sim/txt_util.vhd"
+vhdl xil_defaultlib  "../../../../sim/std_logic_textio.vhd"
+vhdl xil_defaultlib  "../../../../src/sip_toggle_4lvds.vhd"
+vhdl xil_defaultlib  "../../../../sim/generic_host_emu.vhd"
+vhdl xil_defaultlib  "../../../../tb_toggle.vhd"

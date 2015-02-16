@@ -1,0 +1,3 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../../packer_128.vhd"
+vhdl xil_defaultlib  "../../../../../tb_packer_128.vhd"

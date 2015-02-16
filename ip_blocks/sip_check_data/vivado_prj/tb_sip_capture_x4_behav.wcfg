@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sip_capture_x4_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="std_logic_textio" />
+            <top_module name="tb_sip_capture_x4" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="42" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out0_out_stop">
+      <obj_property name="ElementShortName">out0_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out0_out_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out0_out_dval">
+      <obj_property name="ElementShortName">out0_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out0_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out0_out_data">
+      <obj_property name="ElementShortName">out0_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out0_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out1_out_stop">
+      <obj_property name="ElementShortName">out1_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out1_out_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out1_out_dval">
+      <obj_property name="ElementShortName">out1_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out1_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out1_out_data">
+      <obj_property name="ElementShortName">out1_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out1_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out2_out_stop">
+      <obj_property name="ElementShortName">out2_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out2_out_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out2_out_dval">
+      <obj_property name="ElementShortName">out2_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out2_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out2_out_data">
+      <obj_property name="ElementShortName">out2_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out2_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out3_out_stop">
+      <obj_property name="ElementShortName">out3_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out3_out_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out3_out_dval">
+      <obj_property name="ElementShortName">out3_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out3_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/out3_out_data">
+      <obj_property name="ElementShortName">out3_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out3_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in0_in_stop">
+      <obj_property name="ElementShortName">in0_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in0_in_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in0_in_dval">
+      <obj_property name="ElementShortName">in0_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in0_in_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in0_in_data">
+      <obj_property name="ElementShortName">in0_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in0_in_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in1_in_stop">
+      <obj_property name="ElementShortName">in1_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in1_in_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in1_in_dval">
+      <obj_property name="ElementShortName">in1_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in1_in_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in1_in_data">
+      <obj_property name="ElementShortName">in1_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in1_in_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in2_in_stop">
+      <obj_property name="ElementShortName">in2_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in2_in_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in2_in_dval">
+      <obj_property name="ElementShortName">in2_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in2_in_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in2_in_data">
+      <obj_property name="ElementShortName">in2_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in2_in_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in3_in_stop">
+      <obj_property name="ElementShortName">in3_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in3_in_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in3_in_dval">
+      <obj_property name="ElementShortName">in3_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in3_in_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/in3_in_data">
+      <obj_property name="ElementShortName">in3_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in3_in_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/clk_out">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider160" type="divider">
+      <obj_property name="label">CAPTURE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ena_0">
+      <obj_property name="ElementShortName">ena_0</obj_property>
+      <obj_property name="ObjectShortName">ena_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ena_1">
+      <obj_property name="ElementShortName">ena_1</obj_property>
+      <obj_property name="ObjectShortName">ena_1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ena_2">
+      <obj_property name="ElementShortName">ena_2</obj_property>
+      <obj_property name="ObjectShortName">ena_2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ena_3">
+      <obj_property name="ElementShortName">ena_3</obj_property>
+      <obj_property name="ObjectShortName">ena_3</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/sw_reset">
+      <obj_property name="ElementShortName">sw_reset</obj_property>
+      <obj_property name="ObjectShortName">sw_reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ctrl_valid">
+      <obj_property name="ElementShortName">ctrl_valid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_valid[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ctrl_wr_en">
+      <obj_property name="ElementShortName">ctrl_wr_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_wr_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/fifo_count">
+      <obj_property name="ElementShortName">fifo_count[3:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_count[3:0][11:0]</obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/fifo_count[3]">
+         <obj_property name="ElementShortName">[3][11:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_count[3][11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/fifo_count[2]">
+         <obj_property name="ElementShortName">[2][11:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_count[2][11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/fifo_count[1]">
+         <obj_property name="ElementShortName">[1][11:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_count[1][11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/fifo_count[0]">
+         <obj_property name="ElementShortName">[0][11:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_count[0][11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider259" type="divider">
+      <obj_property name="label">CAP CNT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ip_block_ctrl_inst0/\generate_fifo_ctrl0(0)\/fifo_ctrl_inst0/fifo_valid">
+      <obj_property name="ElementShortName">fifo_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ip_block_ctrl_inst0/\generate_fifo_ctrl0(0)\/fifo_ctrl_inst0/nb_bursts_cnt">
+      <obj_property name="ElementShortName">nb_bursts_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nb_bursts_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ip_block_ctrl_inst0/\generate_fifo_ctrl0(0)\/fifo_ctrl_inst0/burst_size_cnt">
+      <obj_property name="ElementShortName">burst_size_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_size_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ip_block_ctrl_inst0/\generate_fifo_ctrl0(2)\/fifo_ctrl_inst0/nb_bursts_cnt">
+      <obj_property name="ElementShortName">nb_bursts_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nb_bursts_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ip_block_ctrl_inst0/\generate_fifo_ctrl0(2)\/fifo_ctrl_inst0/burst_size_cnt">
+      <obj_property name="ElementShortName">burst_size_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_size_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_capture_x4/sip_capture_x4_0/ip_block_ctrl_inst0/\generate_fifo_ctrl0(2)\/fifo_ctrl_inst0/fifo_valid">
+      <obj_property name="ElementShortName">fifo_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_valid</obj_property>
+   </wvobject>
+</wave_config>

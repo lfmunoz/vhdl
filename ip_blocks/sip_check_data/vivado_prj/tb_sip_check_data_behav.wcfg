@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sip_check_data_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="std_logic_textio" />
+            <top_module name="tb_sip_check_data" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="46" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/out0_out_stop">
+      <obj_property name="ElementShortName">out0_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out0_out_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/out0_out_dval">
+      <obj_property name="ElementShortName">out0_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out0_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/out0_out_data">
+      <obj_property name="ElementShortName">out0_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out0_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/out1_out_stop">
+      <obj_property name="ElementShortName">out1_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out1_out_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/out1_out_dval">
+      <obj_property name="ElementShortName">out1_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out1_out_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/out1_out_data">
+      <obj_property name="ElementShortName">out1_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out1_out_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/in0_in_stop">
+      <obj_property name="ElementShortName">in0_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in0_in_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/in0_in_dval">
+      <obj_property name="ElementShortName">in0_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in0_in_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/in0_in_data">
+      <obj_property name="ElementShortName">in0_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in0_in_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/in1_in_stop">
+      <obj_property name="ElementShortName">in1_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in1_in_stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/in1_in_dval">
+      <obj_property name="ElementShortName">in1_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in1_in_dval</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/in1_in_data">
+      <obj_property name="ElementShortName">in1_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in1_in_data[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/force_error">
+      <obj_property name="ElementShortName">force_error[3:0]</obj_property>
+      <obj_property name="ObjectShortName">force_error[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/status">
+      <obj_property name="ElementShortName">status[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">status[3:0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider722" type="divider">
+      <obj_property name="label">CHECK DATA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/rst_in">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/data_in">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/valid_in">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/status_out">
+      <obj_property name="ElementShortName">status_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">status_out[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_error">
+      <obj_property name="ElementShortName">byte_error[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_error[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/register6">
+      <obj_property name="ElementShortName">register6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register6[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/register7">
+      <obj_property name="ElementShortName">register7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">register7[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/valid_in">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/valid_reg">
+      <obj_property name="ElementShortName">valid_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_reg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in">
+      <obj_property name="ElementShortName">byte_in[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_in[7:0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[7]">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[7][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[6]">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[6][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[5]">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[5][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[4]">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[4][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[3]">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[3][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[2]">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[2][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[1]">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[1][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_in[0]">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_in[0][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check">
+      <obj_property name="ElementShortName">byte_check[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_check[7:0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[7]">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[7][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[6]">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[6][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[5]">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[5][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[4]">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[4][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[3]">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[3][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[2]">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[2][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[1]">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[1][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/data_check_0/byte_check[0]">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_check[0][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider845" type="divider">
+      <obj_property name="label">Byte Alignment</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_in">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/sm_rx">
+      <obj_property name="ElementShortName">sm_rx</obj_property>
+      <obj_property name="ObjectShortName">sm_rx</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/val_in">
+      <obj_property name="ElementShortName">val_in</obj_property>
+      <obj_property name="ObjectShortName">val_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/val_out">
+      <obj_property name="ElementShortName">val_out</obj_property>
+      <obj_property name="ObjectShortName">val_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/alignment_mux_select">
+      <obj_property name="ElementShortName">alignment_mux_select[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alignment_mux_select[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte">
+      <obj_property name="ElementShortName">data_pipe_byte[23:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_pipe_byte[23:0][7:0]</obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[23]">
+         <obj_property name="ElementShortName">[23][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[23][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[22]">
+         <obj_property name="ElementShortName">[22][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[22][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[21]">
+         <obj_property name="ElementShortName">[21][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[21][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[20]">
+         <obj_property name="ElementShortName">[20][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[20][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[19]">
+         <obj_property name="ElementShortName">[19][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[19][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[18]">
+         <obj_property name="ElementShortName">[18][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[18][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[17]">
+         <obj_property name="ElementShortName">[17][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[17][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[16]">
+         <obj_property name="ElementShortName">[16][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[16][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[15]">
+         <obj_property name="ElementShortName">[15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[15][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[14]">
+         <obj_property name="ElementShortName">[14][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[14][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[13]">
+         <obj_property name="ElementShortName">[13][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[13][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[12]">
+         <obj_property name="ElementShortName">[12][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[12][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[11]">
+         <obj_property name="ElementShortName">[11][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[11][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[10]">
+         <obj_property name="ElementShortName">[10][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[10][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[9]">
+         <obj_property name="ElementShortName">[9][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[9][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[8]">
+         <obj_property name="ElementShortName">[8][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[8][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[7]">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[7][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[6]">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[6][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[5]">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[5][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[4]">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[4][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[3]">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[3][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[2]">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[2][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[1]">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[1][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/sip_capture_x4_0/\alignment_generate(3)\/byte_align0/data_pipe_byte[0]">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pipe_byte[0][7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1399" type="divider">
+      <obj_property name="label">SHIFT BYTES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/shift_bytes_0/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/shift_bytes_0/rst_in">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/shift_bytes_0/data_in">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/shift_bytes_0/valid_in">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/shift_bytes_0/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_sip_check_data/shift_bytes_0/valid_out">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/shift_bytes_0/shift_amount_in">
+      <obj_property name="ElementShortName">shift_amount_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_amount_in[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/shift_bytes_0/valid_pipe">
+      <obj_property name="ElementShortName">valid_pipe[2:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_pipe[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/shift_bytes_0/data_pipe">
+      <obj_property name="ElementShortName">data_pipe[2:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_pipe[2:0][63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_sip_check_data/shift_bytes_0/data_pipe_byte">
+      <obj_property name="ElementShortName">data_pipe_byte[23:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_pipe_byte[23:0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
