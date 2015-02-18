@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../spi_checker.vhd"
+vhdl xil_defaultlib  "../../../../pulse2pulse.vhd"
+vhdl xil_defaultlib  "../../../../sim/txt_util.vhd"
+vhdl xil_defaultlib  "../../../../sim/std_logic_textio.vhd"
+vhdl xil_defaultlib  "../../../../fmc408_stellar_cmd.vhd"
+vhdl xilinxcorelib  "../../../../sim/BLK_MEM_GEN_V6_1.vhd"
+vhdl xil_defaultlib  "../../../../amc7823_ctrl.vhd"
+vhdl xil_defaultlib  "../../../../sim/generic_host_emu.vhd"
+vhdl xil_defaultlib  "../../../../adc16dx370_ctrl.vhd"
+vhdl xil_defaultlib  "../../../../tb_spi.vhd"
+
+# Do not sort compile order
+nosort

@@ -125,12 +125,9 @@ signal spi_csn_phy      : std_logic;
 signal spi_reset_phy    : std_logic;
 signal spi_sclk         : std_logic;
 signal spi_counter : std_logic_vector(7 downto 0);
-signal spi0_counter : std_logic_vector(7 downto 0);
-signal spi0_sdi     : std_logic_vector(31 downto 0);
-signal spi0_sd0     : std_logic_vector(31 downto 0);
-signal spi0_check   : std_logic;
-signal spi0_write   : std_logic := '0';
-signal spi0_latch   : std_logic;
+
+
+signal spi0_capure  : std_logic_vector(31 downto 0) := (others=>'0');
 
 --***********************************************************************************
 begin
@@ -198,30 +195,52 @@ port map (
 ----------------------------------------------------------------------------------------------------
 -- SPI interface controlling the FMC144 MONITOR
 ----------------------------------------------------------------------------------------------------
-spi_mon_ctrl0: 
-entity work.amc7823_ctrl
-generic map (
-  START_ADDR      => START_ADDR_AMC7823_CTRL0,
-  STOP_ADDR       => STOP_ADDR_AMC7823_CTRL0
-)
-port map (
-  rst             => rst,
-  clk             => serial_clk,
-   -- Command Interface
-  clk_cmd         => clk_cmd,
-  in_cmd_val      => in_cmd_val,
-  in_cmd          => in_cmd,
-  out_cmd_val     => out_cmd_val4,
-  out_cmd         => out_cmd4,
-  -- Serial Interface
-  trig_n_cs       => spi_csn_phy, 
-  trig_sclk       => spi_sclk_phy, 
-  trig_sdo        => spi_sdo_phy, 
-  trig_clksel0    => spi_sdi_phy 
-);
-
+--spi_mon_ctrl0: 
+--entity work.amc7823_ctrl
+--generic map (
+--  START_ADDR      => START_ADDR_AMC7823_CTRL0,
+--  STOP_ADDR       => STOP_ADDR_AMC7823_CTRL0
+--)
+--port map (
+--  rst             => rst,
+--  clk             => serial_clk,
+--   -- Command Interface
+--  clk_cmd         => clk_cmd,
+--  in_cmd_val      => in_cmd_val,
+--  in_cmd          => in_cmd,
+--  out_cmd_val     => out_cmd_val4,
+--  out_cmd         => out_cmd4,
+--  -- Serial Interface
+--  trig_n_cs       => spi_csn_phy, 
+--  trig_sclk       => spi_sclk_phy, 
+--  trig_sdo        => spi_sdo_phy, 
+--  trig_clksel0    => spi_sdi_phy 
+--);
+--
 
 spi_sclk <= spi_sclk_phy when spi_csn_phy = '0' else '0';
+
+spi_adc1_ctrl0: 
+entity work.adc16dx370_ctrl
+generic map (
+  START_ADDR     => START_ADDR_AMC7823_CTRL0,
+  STOP_ADDR      => STOP_ADDR_AMC7823_CTRL0
+)
+port map (
+ rst             => rst,
+ clk             => serial_clk,
+ -- Command Interface
+ clk_cmd         => clk_cmd,
+ in_cmd_val      => in_cmd_val,
+ in_cmd          => in_cmd,
+ out_cmd_val     => out_cmd_val4,
+ out_cmd         => out_cmd4,
+ -- Serial Interface
+ trig_n_cs       => spi_csn_phy, 
+ trig_sclk       => spi_sclk_phy, 
+ trig_sdo        => spi_sdo_phy, 
+ trig_clksel0    => spi_sdi_phy
+);
 
 ----------------------------------------------------------------------------------------------------
 -- Command out merge & pipeline
@@ -232,90 +251,24 @@ begin
     out_cmd_val  <= '0';
     out_cmd      <= (others => '0');
   elsif (rising_edge(clk_cmd)) then
-    --out_cmd_val  <= out_cmd_val0  or out_cmd_val1 or out_cmd_val2;
-    --out_cmd      <=     out_cmd0  or     out_cmd1 or     out_cmd2;
-      out_cmd_val  <= in_cmd_val;
-      out_cmd      <= out_cmd4;
+    out_cmd_val  <= out_cmd_val4;
+    out_cmd      <= out_cmd4;
   end if;
 end process;
 
 ----------------------------------------------------------------------------------------------------
 -- SPI device model
 ----------------------------------------------------------------------------------------------------
--- count clock cycles received
-process (spi_csn_phy, spi_sclk)
-begin
-    if spi_csn_phy = '1' then
-        spi0_counter     <= (others => '0');
-    elsif rising_edge(spi_sclk) then
-        spi0_counter     <=  spi0_counter + 1;
-    end if;
-end process;
-
--- toggle capture enable if the first bit is a write
-process (spi_csn_phy, spi_sclk_phy)
-begin
-    if spi_csn_phy = '1' then
-        spi0_write      <= '0';
-    elsif rising_edge(spi_sclk_phy) then
-        if spi0_counter = 1 and spi_sdo_phy = WR_BIT then
-            spi0_write <= '1';
-        end if;
-    end if;
-end process;
-
--- capture the incomming spi data if operatin is a write
-process (spi_csn_phy, spi_sclk_phy)
-begin
-    if spi_csn_phy = '1' then
-        spi0_sdi     <= (others => '0');
-    elsif rising_edge(spi_sclk_phy) then
-        if spi0_write = '1' then
-            spi0_sdi     <= spi0_sdi(30 downto 0) & spi_sdo_phy;
-        end if;
-    end if;
-end process;
-
-
-
-process (spi_csn_phy, spi_sclk_phy)
-begin
-    if spi_csn_phy = '1' then
-        spi_sdi_phy     <= '0';
-    elsif rising_edge(spi_sclk_phy) then
-        if spi0_latch = '1' and spi0_counter > 15 then
-            spi_sdi_phy  <= not spi_sdi_phy;
-        end if;  
-    end if;
-end process;
-
-
-
-
---stimulus
---process(clk)
---begin
---   if rising_edge(clk) then
---      sim_count <= sim_count + 1;
---      
---      if sim_count = 0 then         -- reset data generation
---         data_rst <= '1';
---         we       <= '0';      
---      elsif sim_count = 20 then     -- enable data generation and enable writing
---          report "Writing data to memory";
---          data_rst <= '0';
---          we       <= '1';       
---      elsif sim_count = 100 then    -- reset data generation and disable writing
---          data_rst <= '1';
---          we       <= '0';     
---      elsif sim_count = 102 then    -- enable data generation and disable writing
---          report "Reading data from memory";
---          data_rst <= '0';
---          we       <= '0';  
---      end if;
--- 
---   end if;
---end process;
+spi_checker_inst:
+entity work.spi_checker
+port map(
+    clk        => serial_clk,
+    sclk       => serial_clk,    
+    sdo        => spi_sdi_phy,    
+    sdi        => spi_sdo_phy,
+    cs_n       => spi_csn_phy, 
+    reg0       => spi0_capure
+);
 
 --***********************************************************************************
 end architecture Behavioral;
