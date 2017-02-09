@@ -57,11 +57,9 @@ constant DEBUG_ENABLE : boolean  := FALSE;
 attribute keep : string;
 attribute    S : string;
 
+type state_type is   (led1, led2, led3 ,led4);
+signal state_reg : state_type;
 
-type cmd_state_machine is (HOLD_CMD, BYTE0_CMD, BYTE1_CMD, BYTE2_CMD, BYTE3_CMD, BYTE4_CMD, 
-											BYTE5_CMD, BYTE6_CMD, BYTE7_CMD, BYTE8_CMD, BYTE9_CMD, BYTE10_CMD,
-												BYTE11_CMD, BYTE12_CMD, BYTE13_CMD, BYTE14_CMD, BYTE15_CMD);
-	
 
 type bus04  is array(natural range <>) of std_logic_vector( 3 downto 0); 
 -------------------------------------------------------------------------------------
@@ -69,135 +67,47 @@ type bus04  is array(natural range <>) of std_logic_vector( 3 downto 0);
 -------------------------------------------------------------------------------------
 signal counter_in	: std_logic_vector(33 downto 0);
 
-signal recv_sm_reg	: cmd_state_machine;
-
-
 attribute keep of counter_in : signal is "true";
 attribute    S of counter_in : signal is "true";
-
-
 
 --***********************************************************************************
 begin
 --***********************************************************************************
 
 
---process(clk, rst)
+--process (clk, rst)
 --begin
---  if rising_edge(clk) then
---  
---		if rst = '1' then
---			recv_sm_reg	 <= HOLD_CMD;
---			commad	 	 <= (others=>'0');
---			cmd_valid	 <= '0';
---		
---		else
---		
---			--default
---			cmd_valid	<= '0';
---			
---			case recv_sm_reg is
---				when HOLD_CMD 	 => 
---					if in_accept	= '1' then
---						recv_sm_reg				  <= BYTE0_CMD;
---					end if;
---					
---				when BYTE0_CMD  => -- data
---					if in_val = '1' then
---						commad(7 downto 0) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE1_CMD;
---					end if;
---				when BYTE1_CMD  =>
---					if in_val = '1' then
---						commad(15 downto 8) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE2_CMD;
---					end if;
---				when BYTE2_CMD  =>
---					if in_val = '1' then
---						commad(23 downto 16) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE3_CMD;
---					end if;
---				when BYTE3_CMD  =>
---					if in_val = '1' then
---						commad(31 downto 24) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE4_CMD;
---					end if;
---					
---				when BYTE4_CMD  => -- address
---					if in_val = '1' then
---						commad(39 downto 32) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE5_CMD;
---					end if;
---				when BYTE5_CMD  =>
---					if in_val = '1' then
---						commad(47 downto 40) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE6_CMD;
---					end if;
---				when BYTE6_CMD  =>
---					if in_val = '1' then
---						commad(55 downto 48) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE7_CMD;
---					end if;
---				when BYTE7_CMD  =>
---					if in_val = '1' then
---						commad(63 downto 56) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE8_CMD;
---					end if;
---					
---				when BYTE8_CMD  => -- cmd
---					if in_val = '1' then
---						commad(71 downto 64) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE9_CMD;
---					end if;
---				when BYTE9_CMD  =>
---					if in_val = '1' then
---						commad(79 downto 72) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE10_CMD;
---					end if;
---				when BYTE10_CMD =>
---					if in_val = '1' then
---						commad(87 downto 80) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE11_CMD;
---					end if;
---				when BYTE11_CMD =>
---					if in_val = '1' then
---						commad(95 downto 88) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE12_CMD;
---					end if;
---					
---				when BYTE12_CMD => -- size
---					if in_val = '1' then
---						commad(103 downto 96) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE13_CMD;
---					end if;
---				when BYTE13_CMD =>
---					if in_val = '1' then
---						commad(111 downto 104) <= in_dat(7 downto 0);
---						recv_sm_reg				  <= BYTE14_CMD;
---					end if;
---				when BYTE14_CMD =>
---					if in_val = '1' then
---						commad(119 downto 112) <= in_dat(7 downto 0);
---						recv_sm_reg				  	  <= BYTE15_CMD;
---					end if;
---				when BYTE15_CMD =>
---					if in_val = '1' then
---						commad(127 downto 120) <= in_dat(7 downto 0);
---						recv_sm_reg				  	 <= HOLD_CMD;
---						cmd_valid					 <= '1';
---					end if;
---				
---				when others =>
---					recv_sm_reg				  <= HOLD_CMD;
---					
---			end case;
---		
---		end if;
---
---  end if;
---end process;
---
-    
+--    if rising_edge(clk) then
+--        if rst = '1' then
+--            state_reg <= led1;
+--        end if;
+--    else 
+--        case state_reg is
+--            when led1 =>
+--                led <= "0001";
+--                state_reg <= led2;
+--            when led2 =>
+--                led <= "0010";
+--                state_reg <= led2;
+--            when led3 =>
+--                led <= "0100";
+--                state_reg <= led2;
+--            when led4 =>            
+--                led <= "1000";
+--                state_reg <= led1;
+--            when others =>
+--                led <= "0000";
+--                state_reg <= led1;
+--        end case;
+--    end if;
+--end process; 
+
+-- immediate response
+--data <= "00" when led = "0001" else 
+--        "01" when led = "0010" else 
+--        "10" when led = "0100" else 
+--        "11" when led = "0100";
+
 -------------------------------------------------------------------------------------
 -- Counter process
 -------------------------------------------------------------------------------------
